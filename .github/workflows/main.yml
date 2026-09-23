@@ -1,0 +1,11 @@
+name: first_workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: first_step
+        run: echo "Hello U i love CI/CD "
+      -  name: sec_step
+         run: echo "Hello"
+  
