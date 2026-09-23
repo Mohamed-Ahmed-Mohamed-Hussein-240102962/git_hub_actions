@@ -7,5 +7,7 @@ jobs:
       - name: first_step
         run: echo "Hello U i love CI/CD "
       -  name: sec_step
-         run: echo "Hello"
+         run: |
+           echo "X"
+           echo "Y"
   
